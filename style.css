@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
 
 body {
     background-color: rgb(219, 218, 218);
@@ -12,18 +10,18 @@ body {
 
 h1 {
     font-size: 40px;
-    font-family: "Rubik 80s Fade", serif;
+    
     text-align: center;
-    color: white;
+    
     margin-bottom: 0px;
 }
 
 h4 {
     font-size: 20px;
-    font-family: "Edu AU VIC WA NT Hand", cursive;
+    
     text-align: center;
     padding-top: 0px;
-    color: white;
+    
     border-bottom: 5px solid rgba(15, 15, 14, 0.605);
     
 }
@@ -75,12 +73,48 @@ img {
   }
 
   #listhead {
-    color: white;
     position: relative;
     text-align: center;
     padding: 50px;
-    top: 85vh;
+    top: 93vh;
   }
+
+  #listhead > h1 {
+    
+    letter-spacing: 5px;
+  }
+
+  #box1 {
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 420px;
+    color: white;
+  }
+
+  #box2 {
+    
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    margin-left: 420px;
+    color: white;
+  }
+
+  #box3 {
+    
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    margin-left: 420px;
+    color: white;
+  }
+
+  #end {
+    margin-top: 800px;
+  }
+
   #h{
     font-family: "Edu AU VIC WA NT Hand", cursive;
     font-size: 20px;
@@ -88,5 +122,5 @@ img {
   i {
     font-size: 48px;
     margin: 0 5px;
-    color: white;
+    
   } 
