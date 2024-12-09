@@ -54,20 +54,6 @@ img {
   }
 
 
-  /* #button { */
-    /* font-family: "Rubik 80s Fade", serif; */
-    /* border: 3px solid rgba(124, 97, 28, 0.605); */
-    /* padding: 10px 30px; */
-    /* margin-top: 0px; */
-    /* color: rgb(255, 155, 100); */
-    /* font-size: 20px; */
-    /* opacity: 0.8; */
-    /* border-radius: 10px; */
-    /* position: relative; */
-    /* bottom: 140px; */
-    /* left: 20px; */
-  /* } */
-
   a {
     text-decoration: none;
   }
@@ -113,6 +99,14 @@ img {
 
   #end {
     margin-top: 800px;
+    background-color: black;
+    border: 10PX SOLID black;
+    text-align: center;
+  }
+
+  #disclamer {
+    color: white;
+    border: 5px solid rgba(124, 97, 28, 0.695);
   }
 
   #h{
