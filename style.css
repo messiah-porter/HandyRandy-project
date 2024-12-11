@@ -23,21 +23,114 @@ h1 {
     text-align: center;
     
     margin-bottom: 0px;
+
 }
 
+#pb {
+  text-decoration: none;
+  
+  color: white;
+
+  margin-left: 10px;
+
+  margin-right: 10px;
+
+  padding: 1px;
+
+  background-color: black;
+
+  border: 5px solid black;
+
+  border-radius: 6px;
+}
+
+#ab {
+  text-decoration: none;
+  
+  color: white;
+
+  margin-left: 10px;
+
+  margin-right: 10px;
+
+  padding: 1px;
+
+  background-color: black;
+
+  border: 5px solid black;
+
+  border-radius: 6px;
+}
+
+#rb {
+  text-decoration: none;
+  
+  color: white;
+
+  margin-left: 10px;
+
+  margin-right: 10px;
+
+  padding: 1px;
+
+  background-color: black;
+
+  border: 5px solid black;
+
+  border-radius: 6px;
+
+
+}
+
+#tb {
+  text-decoration: none;
+  
+  color: white;
+
+  margin-left: 10px;
+
+  margin-right: 10px;
+
+  padding: 1px;
+
+  background-color: black;
+
+  border: 5px solid black;
+
+  border-radius: 6px;
+}
 
 #bar {
   display: flex;
-  /* position: sticky; */
-  /* top: 27px; */
-  /* z-index: 1; */
+
+  position: sticky;
+
+  color: black;
+
+  height: 34px;
+
+  margin-bottom: 15px;
+
+  border: 2px solid black;  
+
+  border-radius: 7px;
+
+  background-color: rgba(124, 97, 28, 0.695);
+
   justify-content: space-evenly;
+
   align-items: center;
-  background-color: black;
+
+  top: 0%;
+
+  z-index: 1;
+
+  
 }
 
 h4 {
   margin: 15px;
+  margin-bottom: 5px;
 }
   
 
@@ -51,7 +144,8 @@ h4 {
     text-align: center;
     padding-top: 0px;
     
-    border-bottom: 5px solid rgba(15, 15, 14, 0.605);
+    border-bottom: 5px solid black;
+    border-radius: 500px;
     
 }
 
@@ -106,6 +200,7 @@ img {
     margin-top: 100px;
     margin-left: 420px;
     color: white;
+    border-radius: 50px;
   }
 
   #box2 {
@@ -115,6 +210,7 @@ img {
     height: 500px;
     margin-left: 420px;
     color: white;
+    border-radius: 50px;
   }
 
   #box3 {
@@ -124,6 +220,7 @@ img {
     height: 500px;
     margin-left: 420px;
     color: white;
+    border-radius: 50px;
   }
 
   #end {
@@ -131,11 +228,13 @@ img {
     background-color: black;
     border: 10PX SOLID black;
     text-align: center;
+    border-radius: 50px;
   }
 
   #disclamer {
     color: white;
     border: 5px solid rgba(124, 97, 28, 0.695);
+    border-radius: 50px;
   }
 
   #h{
